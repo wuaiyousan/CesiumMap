@@ -1,0 +1,153 @@
+.el-input .el-input__wrapper {
+  background: rgba(55, 98, 171, 0.4) !important;
+  border: 1.43px solid #4b89f0;
+}
+.el-input .el-input__wrapper .el-input__inner {
+  height: 34px;
+  color: #539dff;
+  font-size: 20px;
+}
+.el-input .el-input__wrapper .el-input__inner::placeholder {
+  color: #539dff;
+  font-size: 17px;
+}
+.el-date-editor.el-input__wrapper {
+  background: rgba(55, 98, 171, 0.4) !important;
+  border: 1.43px solid #4b89f0;
+}
+.el-date-editor.el-input__wrapper .el-range-input {
+  height: 34px;
+  color: #539dff;
+  font-size: 20px;
+}
+.el-date-editor.el-input__wrapper .el-range-input::placeholder {
+  color: #539dff;
+  font-size: 17px;
+}
+.el-date-editor.el-input__wrapper .el-range-separator {
+  color: #539dff;
+  font-size: 20px;
+}
+.el-picker__popper.el-popper {
+  background: #3762ab !important;
+}
+.el-picker__popper.el-popper .el-picker-panel {
+  background: #3762ab !important;
+}
+.el-picker__popper.el-popper .el-picker-panel .el-date-picker__header,
+.el-picker__popper.el-popper .el-picker-panel .el-date-range-picker__header {
+  color: #ffffff;
+}
+.el-picker__popper.el-popper .el-picker-panel .el-date-picker__header .el-date-picker__header-label,
+.el-picker__popper.el-popper .el-picker-panel .el-date-range-picker__header .el-date-picker__header-label {
+  color: #ffffff;
+}
+.el-picker__popper.el-popper .el-picker-panel .el-date-picker__header .el-picker-panel__icon-btn,
+.el-picker__popper.el-popper .el-picker-panel .el-date-range-picker__header .el-picker-panel__icon-btn {
+  color: #ffffff;
+}
+.el-picker__popper.el-popper .el-picker-panel .el-picker-panel__content .available .el-date-table-cell__text {
+  color: #999;
+}
+.el-picker__popper.el-popper .el-picker-panel .el-picker-panel__content .cell {
+  color: #ffffff;
+}
+.el-picker__popper.el-popper .el-picker-panel .el-picker-panel__content .disabled .cell {
+  color: #777;
+}
+.el-picker__popper.el-popper .el-picker-panel .el-picker-panel__content .in-range .cell {
+  color: #333;
+}
+.el-picker__popper.el-popper .el-picker-panel .el-picker-panel__content .in-range .el-date-table-cell__text {
+  color: #333;
+}
+.el-dialog {
+  background: rgba(5, 26, 57, 0.8) !important;
+  box-shadow: 0px 0px 4px 0px #03ddfe inset;
+  color: #97cdff;
+  padding: 0 !important;
+}
+.el-dialog .el-dialog__header {
+  padding: 12px 25px;
+  margin: 0;
+  background: rgba(5, 44, 99, 0.8);
+  font-size: 30px;
+  font-weight: 500;
+  color: #97cdff;
+  line-height: 50px;
+  letter-spacing: 0.02px;
+}
+.el-dialog .el-dialog__header .el-dialog__title {
+  font-size: 30px;
+  font-weight: 500;
+  color: #97cdff;
+  line-height: 50px;
+  letter-spacing: 0.02px;
+}
+.el-dialog .el-dialog__header .el-dialog__headerbtn {
+  top: 12px;
+  right: 25px;
+}
+.el-dialog .el-dialog__header .el-dialog__headerbtn .el-dialog__close {
+  font-size: 35px;
+  color: #97cdff;
+}
+.el-dialog .el-dialog__body {
+  color: #b7f1ff;
+  padding: 16px 30px;
+}
+.el-table {
+  font-size: 14px;
+  background: rgba(22, 119, 255, 0.2) !important;
+  --el-table-border: 1px solid rgba(44, 51, 61, 0.2) !important;
+  --el-table-row-hover-bg-color: rgba(30, 47, 74, 0.4) !important;
+  --el-table-header-bg-color: rgba(239, 244, 255, 0.2) !important;
+}
+.el-table .el-table__header-wrapper thead th div {
+  color: #eff4ff !important;
+}
+.el-table .el-table__body td.el-table__cell {
+  color: #eff4ff !important;
+}
+.el-table tr {
+  background: #132a44 !important;
+}
+.el-table .el-table__row--striped .el-table__cell {
+  background: rgba(57, 83, 83, 0.2) !important;
+}
+.el-table .el-table__row:hover .el-table__cell {
+  background: rgba(47, 99, 151, 0.2) !important;
+}
+.el-table .el-table__cell .cell {
+  font-size: 16px;
+  line-height: 30px;
+  padding: 0 10px;
+}
+.el-table .el-table__body-wrapper {
+  background: #132a44 !important;
+}
+.el-pagination .number {
+  background: transparent;
+  color: rgba(255, 255, 255, 0.75);
+}
+.el-pagination .more {
+  background: transparent;
+  color: rgba(255, 255, 255, 0.75);
+}
+.el-pagination .btn-prev {
+  background: transparent;
+  color: rgba(255, 255, 255, 0.75);
+}
+.el-pagination .btn-next {
+  background: transparent;
+  color: rgba(255, 255, 255, 0.75);
+}
+.el-pagination button:hover,
+.el-pagination button:disabled {
+  background: transparent !important;
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+.el-pagination .is-active {
+  background: #529dff !important;
+  color: #bfe9f3 !important;
+}

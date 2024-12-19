@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="210px" height="88px" viewBox="0 0 210 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组备份 7</title>
+    <defs>
+        <linearGradient x1="50%" y1="16.3378901%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#29FF98" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#19F6BF" stop-opacity="0.378891738" offset="60.5519968%"></stop>
+            <stop stop-color="#00E8FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="综合管控-运维专题" transform="translate(-2395.000000, -863.000000)">
+            <g id="编组-36" transform="translate(2395.000000, 863.000000)">
+                <polygon id="矩形备份-7" fill="url(#linearGradient-1)" opacity="0.148677281" points="0 0 210 0 210 88 0 88"></polygon>
+                <rect id="矩形" fill="#00E8FF" x="0" y="83.6956522" width="210" height="4.30434783"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+/* 盒子边框颜色 */
+.txt-overflow {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+@keyframes loading-rotate {
+  to {
+    transform: rotate(1turn);
+  }
+}
+@keyframes loading-dash {
+  0% {
+    stroke-dasharray: 1, 126;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 95, 126;
+    stroke-dashoffset: -31px;
+  }
+  to {
+    stroke-dasharray: 6, 120;
+    stroke-dashoffset: -120px;
+  }
+}

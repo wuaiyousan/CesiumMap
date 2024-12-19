@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 14</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="智能巡河-弹窗" transform="translate(-90.000000, -899.000000)">
+            <g id="编组-14" transform="translate(90.000000, 899.000000)">
+                <circle id="椭圆形" stroke="#FFFFFF" cx="10" cy="10" r="9.5"></circle>
+                <path d="M11.649034,5.61112835 C11.649034,5.08835538 10.9584001,4.79148672 10.5775896,5.17218441 L6.18875908,9.56103749 C5.93708031,9.81271627 5.93708031,10.1870436 6.18875908,10.4388239 L10.5777136,14.8274627 C10.9683558,15.2180936 11.6491581,14.8919778 11.6491581,14.3821597 L11.649034,5.61113963 L11.649034,5.61112835 Z" id="路径" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

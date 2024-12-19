@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="52px" viewBox="0 0 40 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>村庄远传水表</title>
+    <defs>
+        <filter x="0.0%" y="-0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.541176471   0 0 0 0 0.945098039   0 0 0 0 1  0 0 0 0.496063019 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M19.728882,0.000669211278 C28.759361,-0.0518335735 36.1360022,7.20667642 36.2278821,16.2437183 C36.2541335,19.7810934 35.1253236,23.2331515 33.0120865,26.0748647 C31.1285491,28.5031185 26.6986267,33.0380465 26.035779,33.8058998 C25.4844998,34.5803158 20.6083036,40.3228079 19.8338875,41.313798 C19.7223191,41.4188036 19.7223191,41.4188036 19.6107507,41.313798 C18.8363346,40.4278135 15.1808282,35.7878799 13.074154,33.4711945 C10.9674798,31.0429407 7.64667862,27.9452764 6.09784647,25.7401595 C4.1224292,23.0100146 3.0723735,19.7154649 3.10518774,16.3487238 C3.13143913,11.977867 4.90340812,7.79733275 8.02076097,4.72591984 C11.1446767,1.66106978 15.3514623,-0.0387078773 19.728882,0.000669211278 Z M29.8256783,35.1836693 L40,40.804406 L19.9969683,51.8579152 L0,40.804406 L10.0894346,35.2261129 L14.2428377,38.7125461 L10.0894346,40.7983427 L19.9969683,46.2978121 L29.819615,40.804406 L25.9269365,38.7186095 L29.8256783,35.1836693 Z" id="path-2"></path>
+        <filter x="-6.2%" y="-4.8%" width="112.5%" height="109.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+            <feGaussianBlur stdDeviation="2" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.876854496   0 0 0 0 0.746681436   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="天气icon" transform="translate(-1649.000000, -86.000000)" fill-rule="nonzero">
+            <g id="村庄远传水表" filter="url(#filter-1)" transform="translate(1649.000000, 86.000000)">
+                <g id="形状">
+                    <use fill="#001642" xlink:href="#path-2"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                </g>
+                <path d="M20.125,6 C24.6123136,6 28.25,9.63768641 28.25,14.125 C28.2451037,17.3149025 26.4051269,20.0743149 23.7291881,21.4041187 L25.299,24.125 L27.3125,24.125 C27.8928571,24.125 28.2037628,24.3944515 28.2452168,24.9333546 L28.25,25.0625 C28.25,25.6875 27.9375,26 27.3125,26 L12.9375,26 C12.3571429,26 12.0462372,25.7305485 12.0047832,25.1916454 L12,25.0625 C12,24.4375 12.3125,24.125 12.9375,24.125 L15.025,24.125 L16.5778169,21.4368531 C13.8678964,20.1197542 12,17.3405124 12,14.125 C12,9.63768641 15.6376864,6 20.125,6 Z M20.125,22.25 C19.5265489,22.25 18.9432094,22.1852992 18.3815951,22.062511 L17.19,24.125 L23.134,24.125 L21.9333504,22.0454876 C21.3518418,22.1784108 20.7465941,22.2490459 20.125,22.25 Z M20.125,7.875 C16.6732203,7.875 13.875,10.6732203 13.875,14.125 C13.875,17.5767797 16.6732203,20.375 20.125,20.375 C23.5767797,20.375 26.375,17.5767797 26.375,14.125 C26.375,10.6732203 23.5767797,7.875 20.125,7.875 Z M20.125,11 C21.8508898,11 23.25,12.3991102 23.25,14.125 C23.25,15.8508898 21.8508898,17.25 20.125,17.25 C18.3991102,17.25 17,15.8508898 17,14.125 C17,12.3991102 18.3991102,11 20.125,11 Z" id="视频站" fill="#FFE034"></path>
+            </g>
+        </g>
+    </g>
+</svg>

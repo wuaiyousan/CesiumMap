@@ -1,0 +1,32 @@
+<!--
+ * @Author: fishScola
+ * @Date: 2022-10-13 09:49:51
+ * @LastEditors: wangzhipeng
+ * @LastEditTime: 2023-08-28 10:38:32
+ * @Description: 聊城大屏
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link href="/static/css/common.css" rel="stylesheet" />
+
+    <!-- 使用EarthSDK进行开发 -->
+    <script src="/lib/earthsdk/XbsjCesium/Cesium.js"></script>
+    <link rel="stylesheet" href="/lib/earthsdk/XbsjCesium/Widgets/widgets.css">
+    <script src="/lib/earthsdk/XbsjEarth/XbsjEarth.js"></script>
+
+    <!-- liveplayer视频播放 -->
+    <script src="/lib/liveplayer/liveplayer-lib.min.js"></script>
+
+    <!-- skeyeplayer视频播放 -->
+    <!-- <script defer src="/lib/skeyeplayer/SkeyeWebPlayer.min.js"></script> -->
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="./src/entries/index/index.js"></script>
+  </body>
+</html>

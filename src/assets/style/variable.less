@@ -1,0 +1,75 @@
+// ------------------------ 字体 ------------------------
+@fontSize: 16px; // 默认字体大小
+@fontHeight: 16px; // 默认字体行高
+@fontWeight: 400; // 默认字体粗细
+@titleSize1: 20px; // 默认标题2字体大小
+@titleSize2: 18px; // 默认标题3字体大小
+@titleSize4: 30px; // 默认标题3字体大小
+@titleSize5: 32px; // 默认标题4字体大小
+@titleSize6: 29px; // 默认标题4字体大小
+@titleSize7: 24px; // 默认标题4字体大小
+@titleSize8: 34px; // 默认标题8字体大小
+
+
+@font-color-major: rgba(239,228,255,0.8); // #efe4ff
+@font-color-light: #efe4ff;
+@active-color:#15F1FF;
+@abnormal-color:#F14545;
+@font-color-minor: #999;
+@font-size-major: 14px;
+@font-size-minor: 12px;
+@background-color: #00071E; // 蓝色
+@red-color: #e74c3c; // 红色
+@green-color:#2AE8BD; //绿色
+
+/* 盒子边框颜色 */
+@box-border-color: #3a7fc2;
+@minor-color: #f2f2f2;
+
+// 模块盒子宽度
+@panelWidthLeft:680px; 
+@panelWidthRight: 450px;
+
+// 模块盒子间的底边框
+@panelMarginBottom: 20px;
+// 模块盒子背景色
+@panelBgColor:#132A44aa;
+// hover背景色
+@panelBgColorOnHover: rgba(30, 36, 50, 0.72);
+// switcher悬浮背景色
+@switcherOnHover: rgba(30, 36, 50, 0.72);
+
+// 不显眼的白色，状态栏等
+@colorMinorOnWhite: #d6d6d6;
+
+@tableHeadBg:rgba(217,217,217,.3);  //表格表头背景
+@tableHeadColor:#ffffff; //表格表头文字颜色
+
+.txt-overflow {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@keyframes loading-rotate {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes loading-dash {
+  0% {
+    stroke-dasharray: 1, 126;
+    stroke-dashoffset: 0;
+  }
+
+  50% {
+    stroke-dasharray: 95, 126;
+    stroke-dashoffset: -31px;
+  }
+
+  to {
+    stroke-dasharray: 6, 120;
+    stroke-dashoffset: -120px;
+  }
+}
