@@ -89,7 +89,17 @@ export default function FormatUtil() {
       lat: toD(cartographic.latitude),
     }
   }
- 
+  
+  // 经纬度转屏幕坐标
+  function lonlat2Pixel(log, lat){
+    let toEarth = window.earthObj
+    let scene = toEarth._scene
+    let cartesian3 = Cesium.cartesian3.fromDegrees(log, lat);
+    let cartesian2 = Cesium.SceneTransforms.wgs84ToWindowCoordinates(scene, cartesian3);
+    return cartesian2;
+  }
+
+
   // propertyBagToObj
   function propertyBagToObj(propertyBag) {
     let obj = {};
